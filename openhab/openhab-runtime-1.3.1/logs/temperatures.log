@@ -1,0 +1,340 @@
+2013-09-12 20:55:02,292 - Temperature_GF_Corridor  : 21.10000000
+2013-09-12 20:55:02,568 - Temperature_GF_Toilet    : 18.30000000
+2013-09-12 20:55:02,791 - Temperature_GF_Living    : 17.90000000
+2013-09-12 20:55:03,010 - Temperature_GF_Kitchen   : 19.60000000
+2013-09-12 20:55:03,202 - Temperature_FF_Bath      : 21.10000000
+2013-09-12 20:55:03,368 - Temperature_FF_Office    : 21.30000000
+2013-09-12 20:55:03,681 - Temperature_FF_Child     : 21.60000000
+2013-09-12 20:55:03,854 - Temperature_FF_Bed       : 21.20000000
+2013-09-12 21:00:00,678 - Temperature_GF_Corridor  : 17.60000000
+2013-09-12 21:00:00,782 - Temperature_GF_Toilet    : 19.00000000
+2013-09-12 21:00:00,888 - Temperature_GF_Living    : 20.40000000
+2013-09-12 21:00:01,079 - Temperature_GF_Kitchen   : 19.20000000
+2013-09-12 21:00:01,284 - Temperature_FF_Bath      : 21.10000000
+2013-09-12 21:00:01,485 - Temperature_FF_Office    : 19.50000000
+2013-09-12 21:00:01,552 - Temperature_FF_Child     : 20.90000000
+2013-09-12 21:00:01,596 - Temperature_FF_Bed       : 21.60000000
+2013-09-12 21:05:00,756 - Temperature_GF_Corridor  : 18.80000000
+2013-09-12 21:05:00,868 - Temperature_GF_Toilet    : 18.70000000
+2013-09-12 21:05:00,974 - Temperature_GF_Living    : 20.60000000
+2013-09-12 21:05:01,071 - Temperature_GF_Kitchen   : 22.00000000
+2013-09-12 21:05:01,166 - Temperature_FF_Bath      : 17.90000000
+2013-09-12 21:05:01,340 - Temperature_FF_Office    : 18.40000000
+2013-09-12 21:05:01,600 - Temperature_FF_Bed       : 19.60000000
+2013-09-12 21:10:00,749 - Temperature_GF_Corridor  : 17.90000000
+2013-09-12 21:10:00,838 - Temperature_GF_Toilet    : 20.80000000
+2013-09-12 21:10:00,937 - Temperature_GF_Living    : 21.70000000
+2013-09-12 21:10:01,028 - Temperature_GF_Kitchen   : 21.50000000
+2013-09-12 21:10:01,151 - Temperature_FF_Bath      : 20.10000000
+2013-09-12 21:10:01,270 - Temperature_FF_Office    : 20.50000000
+2013-09-12 21:10:01,437 - Temperature_FF_Child     : 21.40000000
+2013-09-12 21:10:01,479 - Temperature_FF_Bed       : 21.60000000
+2013-09-12 21:15:00,836 - Temperature_GF_Corridor  : 18.70000000
+2013-09-12 21:15:00,926 - Temperature_GF_Toilet    : 18.30000000
+2013-09-12 21:15:01,015 - Temperature_GF_Living    : 21.60000000
+2013-09-12 21:15:01,192 - Temperature_GF_Kitchen   : 18.90000000
+2013-09-12 21:15:01,539 - Temperature_FF_Bath      : 22.40000000
+2013-09-12 21:15:01,719 - Temperature_FF_Office    : 18.50000000
+2013-09-12 21:15:01,798 - Temperature_FF_Child     : 20.40000000
+2013-09-12 21:15:01,885 - Temperature_FF_Bed       : 17.90000000
+2013-09-12 21:20:01,026 - Temperature_GF_Corridor  : 20.00000000
+2013-09-12 21:20:01,123 - Temperature_GF_Toilet    : 18.00000000
+2013-09-12 21:20:01,208 - Temperature_GF_Living    : 20.80000000
+2013-09-12 21:20:01,298 - Temperature_GF_Kitchen   : 18.30000000
+2013-09-12 21:20:01,387 - Temperature_FF_Bath      : 20.00000000
+2013-09-12 21:20:01,480 - Temperature_FF_Office    : 19.10000000
+2013-09-12 21:20:01,586 - Temperature_FF_Child     : 21.60000000
+2013-09-12 21:20:01,799 - Temperature_FF_Bed       : 22.30000000
+2013-09-12 21:25:01,224 - Temperature_GF_Corridor  : 20.10000000
+2013-09-12 21:25:01,362 - Temperature_GF_Toilet    : 22.20000000
+2013-09-12 21:25:01,503 - Temperature_GF_Living    : 21.70000000
+2013-09-12 21:25:01,650 - Temperature_GF_Kitchen   : 17.70000000
+2013-09-12 21:25:01,846 - Temperature_FF_Bath      : 17.80000000
+2013-09-12 21:25:02,119 - Temperature_FF_Office    : 19.20000000
+2013-09-12 21:25:02,218 - Temperature_FF_Child     : 20.00000000
+2013-09-12 21:25:02,278 - Temperature_FF_Bed       : 21.80000000
+2013-09-12 21:30:01,104 - Temperature_GF_Corridor  : 18.80000000
+2013-09-12 21:30:01,240 - Temperature_GF_Toilet    : 21.80000000
+2013-09-12 21:30:01,387 - Temperature_GF_Living    : 21.40000000
+2013-09-12 21:30:01,534 - Temperature_GF_Kitchen   : 19.70000000
+2013-09-12 21:30:01,673 - Temperature_FF_Bath      : 20.70000000
+2013-09-12 21:30:01,828 - Temperature_FF_Office    : 19.80000000
+2013-09-12 21:30:02,062 - Temperature_FF_Child     : 22.20000000
+2013-09-12 21:30:02,174 - Temperature_FF_Bed       : 20.70000000
+2013-09-12 21:35:00,944 - Temperature_GF_Corridor  : 19.80000000
+2013-09-12 21:35:01,131 - Temperature_GF_Toilet    : 19.00000000
+2013-09-12 21:35:01,340 - Temperature_GF_Living    : 21.30000000
+2013-09-12 21:35:01,535 - Temperature_GF_Kitchen   : 19.80000000
+2013-09-12 21:35:01,850 - Temperature_FF_Bath      : 22.40000000
+2013-09-12 21:35:02,096 - Temperature_FF_Office    : 18.10000000
+2013-09-12 21:35:02,324 - Temperature_FF_Child     : 18.60000000
+2013-09-12 21:35:02,453 - Temperature_FF_Bed       : 19.00000000
+2013-09-12 21:40:00,935 - Temperature_GF_Corridor  : 19.00000000
+2013-09-12 21:40:01,102 - Temperature_GF_Toilet    : 19.80000000
+2013-09-12 21:40:01,302 - Temperature_GF_Kitchen   : 22.40000000
+2013-09-12 21:40:01,446 - Temperature_FF_Bath      : 17.80000000
+2013-09-12 21:40:01,567 - Temperature_FF_Office    : 19.00000000
+2013-09-12 21:40:01,633 - Temperature_FF_Child     : 20.90000000
+2013-09-12 21:40:01,695 - Temperature_FF_Bed       : 22.10000000
+2013-09-12 21:45:00,994 - Temperature_GF_Corridor  : 19.30000000
+2013-09-12 21:45:01,136 - Temperature_GF_Toilet    : 22.40000000
+2013-09-12 21:45:01,265 - Temperature_GF_Living    : 22.00000000
+2013-09-12 21:45:01,549 - Temperature_GF_Kitchen   : 19.50000000
+2013-09-12 21:45:01,881 - Temperature_FF_Bath      : 18.20000000
+2013-09-12 21:45:02,048 - Temperature_FF_Office    : 20.50000000
+2013-09-12 21:45:02,206 - Temperature_FF_Child     : 20.70000000
+2013-09-12 21:45:02,365 - Temperature_FF_Bed       : 20.20000000
+2013-09-12 21:50:00,954 - Temperature_GF_Corridor  : 17.80000000
+2013-09-12 21:50:01,096 - Temperature_GF_Toilet    : 20.20000000
+2013-09-12 21:50:01,236 - Temperature_GF_Living    : 18.60000000
+2013-09-12 21:50:01,605 - Temperature_GF_Kitchen   : 21.70000000
+2013-09-12 21:50:01,823 - Temperature_FF_Bath      : 21.10000000
+2013-09-12 21:50:02,023 - Temperature_FF_Office    : 21.90000000
+2013-09-12 21:50:02,111 - Temperature_FF_Child     : 19.30000000
+2013-09-12 21:50:02,171 - Temperature_FF_Bed       : 20.30000000
+2013-09-12 21:55:01,191 - Temperature_GF_Corridor  : 21.80000000
+2013-09-12 21:55:01,330 - Temperature_GF_Toilet    : 21.90000000
+2013-09-12 21:55:01,470 - Temperature_GF_Living    : 17.70000000
+2013-09-12 21:55:01,663 - Temperature_GF_Kitchen   : 22.20000000
+2013-09-12 21:55:01,912 - Temperature_FF_Bath      : 18.20000000
+2013-09-12 21:55:02,157 - Temperature_FF_Office    : 20.40000000
+2013-09-12 21:55:02,302 - Temperature_FF_Child     : 17.70000000
+2013-09-12 21:55:02,423 - Temperature_FF_Bed       : 18.50000000
+2013-09-12 22:00:00,886 - Temperature_GF_Corridor  : 19.40000000
+2013-09-12 22:00:01,020 - Temperature_GF_Toilet    : 19.80000000
+2013-09-12 22:00:01,322 - Temperature_GF_Living    : 18.10000000
+2013-09-12 22:00:01,553 - Temperature_GF_Kitchen   : 21.40000000
+2013-09-12 22:00:01,862 - Temperature_FF_Bath      : 19.20000000
+2013-09-12 22:00:01,939 - Temperature_FF_Office    : 18.40000000
+2013-09-12 22:00:01,997 - Temperature_FF_Child     : 18.50000000
+2013-09-12 22:00:02,162 - Temperature_FF_Bed       : 21.30000000
+2013-09-12 22:05:00,921 - Temperature_GF_Corridor  : 19.30000000
+2013-09-12 22:05:01,080 - Temperature_GF_Toilet    : 22.30000000
+2013-09-12 22:05:01,222 - Temperature_GF_Living    : 19.70000000
+2013-09-12 22:05:01,363 - Temperature_GF_Kitchen   : 20.60000000
+2013-09-12 22:05:01,562 - Temperature_FF_Bath      : 18.40000000
+2013-09-12 22:05:01,783 - Temperature_FF_Office    : 19.60000000
+2013-09-12 22:05:01,866 - Temperature_FF_Child     : 22.10000000
+2013-09-12 22:05:01,925 - Temperature_FF_Bed       : 21.80000000
+2013-09-12 22:10:00,887 - Temperature_GF_Corridor  : 19.50000000
+2013-09-12 22:10:01,021 - Temperature_GF_Toilet    : 18.20000000
+2013-09-12 22:10:01,156 - Temperature_GF_Living    : 19.20000000
+2013-09-12 22:10:01,466 - Temperature_GF_Kitchen   : 19.70000000
+2013-09-12 22:10:01,682 - Temperature_FF_Bath      : 18.90000000
+2013-09-12 22:10:01,878 - Temperature_FF_Office    : 19.00000000
+2013-09-12 22:10:01,936 - Temperature_FF_Child     : 21.10000000
+2013-09-12 22:10:01,994 - Temperature_FF_Bed       : 17.80000000
+2013-09-12 22:15:00,898 - Temperature_GF_Corridor  : 19.00000000
+2013-09-12 22:15:01,036 - Temperature_GF_Toilet    : 17.60000000
+2013-09-12 22:15:01,174 - Temperature_GF_Living    : 17.70000000
+2013-09-12 22:15:01,386 - Temperature_GF_Kitchen   : 20.20000000
+2013-09-12 22:15:01,738 - Temperature_FF_Bath      : 18.50000000
+2013-09-12 22:15:01,934 - Temperature_FF_Office    : 21.00000000
+2013-09-12 22:15:02,051 - Temperature_FF_Child     : 22.00000000
+2013-09-12 22:15:02,111 - Temperature_FF_Bed       : 18.70000000
+2013-09-12 23:15:42,571 - Temperature_GF_Corridor  : 21.50000000
+2013-09-12 23:15:43,050 - Temperature_GF_Toilet    : 20.90000000
+2013-09-12 23:15:43,273 - Temperature_GF_Living    : 21.50000000
+2013-09-12 23:15:43,365 - Temperature_GF_Kitchen   : 21.90000000
+2013-09-12 23:15:43,450 - Temperature_FF_Bath      : 22.40000000
+2013-09-12 23:15:43,533 - Temperature_FF_Office    : 22.30000000
+2013-09-12 23:15:43,615 - Temperature_FF_Child     : 21.50000000
+2013-09-12 23:15:43,715 - Temperature_FF_Bed       : 21.10000000
+2013-09-12 23:20:01,352 - Temperature_GF_Corridor  : 20.10000000
+2013-09-12 23:20:01,555 - Temperature_GF_Toilet    : 22.20000000
+2013-09-12 23:20:01,736 - Temperature_GF_Living    : 21.20000000
+2013-09-12 23:20:01,827 - Temperature_GF_Kitchen   : 18.70000000
+2013-09-12 23:20:01,912 - Temperature_FF_Bath      : 19.70000000
+2013-09-12 23:20:02,007 - Temperature_FF_Office    : 18.60000000
+2013-09-12 23:20:02,092 - Temperature_FF_Child     : 20.90000000
+2013-09-12 23:20:02,167 - Temperature_FF_Bed       : 20.60000000
+2013-09-13 06:04:51,738 - Temperature_GF_Living    : 22.7
+2013-09-13 06:11:34,316 - Temperature_GF_Kitchen   : 23.2
+2013-09-13 06:11:51,477 - Temperature_GF_Kitchen   : 19.5
+2013-09-13 06:11:52,729 - Temperature_GF_Kitchen   : 23.2
+2013-09-13 06:12:30,176 - Temperature_GF_Living    : 23.0
+2013-09-13 06:12:52,335 - Temperature_GF_Living    : 11.5
+2013-09-13 06:13:04,541 - Temperature_GF_Living    : 23.0
+2013-09-13 06:13:07,240 - Temperature_GF_Kitchen   : 19.5
+2013-09-13 06:13:16,155 - Temperature_GF_Living    : 22.4
+2013-09-13 06:13:28,413 - Temperature_GF_Living    : 23.0
+2013-09-13 06:13:40,139 - Temperature_GF_Living    : 23.2
+2013-09-13 06:14:03,793 - Temperature_GF_Living    : 23.0
+2013-09-13 06:14:15,712 - Temperature_GF_Living    : 3.5
+2013-09-13 06:14:27,681 - Temperature_GF_Living    : 23.0
+2013-09-13 06:14:51,380 - Temperature_GF_Living    : 19.4
+2013-09-13 06:15:03,263 - Temperature_GF_Living    : 23.2
+2013-09-13 06:15:15,231 - Temperature_GF_Living    : 23.0
+2013-09-13 06:15:39,190 - Temperature_GF_Kitchen   : 23.0
+2013-09-13 06:16:27,127 - Temperature_GF_Living    : 0.8
+2013-09-13 06:16:38,616 - Temperature_GF_Living    : 23.0
+2013-09-13 06:16:55,531 - Temperature_GF_Kitchen   : 19.5
+2013-09-13 06:17:26,272 - Temperature_GF_Living    : 8.8
+2013-09-13 06:17:38,175 - Temperature_GF_Living    : 23.0
+2013-09-13 06:18:02,229 - Temperature_GF_Living    : 25.2
+2013-09-13 06:18:11,572 - Temperature_GF_Kitchen   : 19.2
+2013-09-13 06:18:13,767 - Temperature_GF_Living    : 23.0
+2013-09-13 06:19:01,612 - Temperature_GF_Living    : 23.2
+2013-09-13 06:19:25,199 - Temperature_GF_Living    : 23.0
+2013-09-13 06:19:37,493 - Temperature_GF_Living    : 19.2
+2013-09-13 06:19:49,143 - Temperature_GF_Living    : 23.0
+2013-09-13 06:20:36,648 - Temperature_GF_Living    : 10.8
+2013-09-13 06:20:48,600 - Temperature_GF_Living    : 23.0
+2013-09-13 06:21:12,361 - Temperature_GF_Living    : 23.2
+2013-09-13 06:21:24,275 - Temperature_GF_Living    : 23.0
+2013-09-13 06:22:35,926 - Temperature_GF_Living    : 16.4
+2013-09-13 06:22:47,642 - Temperature_GF_Living    : 23.0
+2013-09-13 06:23:47,228 - Temperature_GF_Living    : 23.2
+2013-09-13 06:24:11,373 - Temperature_GF_Living    : 5.2
+2013-09-13 06:24:22,920 - Temperature_GF_Living    : 23.2
+2013-09-13 06:25:34,335 - Temperature_GF_Living    : 23.0
+2013-09-13 06:25:58,293 - Temperature_GF_Living    : 23.2
+2013-09-13 06:26:10,073 - Temperature_GF_Living    : 23.0
+2013-09-13 06:26:45,838 - Temperature_GF_Living    : 19.2
+2013-09-13 06:26:57,858 - Temperature_GF_Living    : 23.0
+2013-09-13 06:27:04,730 - Temperature_GF_Kitchen   : 19.0
+2013-09-13 06:27:22,085 - Temperature_GF_Living    : 23.2
+2013-09-13 06:32:43,060 - Temperature_GF_Living    : 23.5
+2013-09-13 06:35:59,136 - Temperature_GF_Kitchen   : 18.7
+2013-09-13 06:36:30,507 - Temperature_GF_Living    : 23.2
+2013-09-13 06:38:06,213 - Temperature_GF_Living    : 24.0
+2013-09-13 06:38:18,070 - Temperature_GF_Living    : 23.2
+2013-09-13 06:40:16,114 - Temperature_GF_Living    : 23.5
+2013-09-13 06:40:28,085 - Temperature_GF_Living    : 23.2
+2013-09-13 06:40:39,925 - Temperature_GF_Living    : 23.5
+2013-09-13 06:43:50,600 - Temperature_GF_Living    : 23.7
+2013-09-13 06:51:11,536 - Temperature_GF_Kitchen   : 24.2
+2013-09-13 06:51:41,582 - Temperature_GF_Kitchen   : 22.2
+2013-09-13 06:51:52,745 - Temperature_GF_Living    : 22.2
+2013-09-13 06:52:32,318 - Temperature_GF_Living    : 22.5
+2013-09-13 06:52:56,869 - Temperature_GF_Kitchen   : 23.0
+2013-09-13 06:53:08,074 - Temperature_GF_Living    : 22.2
+2013-09-13 06:53:45,165 - Temperature_GF_Living    : 21.1
+2013-09-13 06:53:56,945 - Temperature_GF_Living    : 22.2
+2013-09-13 06:54:13,950 - Temperature_GF_Kitchen   : 22.7
+2013-09-13 06:54:43,363 - Temperature_GF_Living    : 22.5
+2013-09-13 06:55:29,330 - Temperature_GF_Kitchen   : 22.5
+2013-09-13 06:56:18,401 - Temperature_GF_Living    : 16.1
+2013-09-13 06:56:30,345 - Temperature_GF_Living    : 22.7
+2013-09-13 06:56:42,336 - Temperature_GF_Living    : 16.8
+2013-09-13 06:56:54,127 - Temperature_GF_Living    : 22.7
+2013-09-13 06:59:16,951 - Temperature_GF_Living    : 6.8
+2013-09-13 06:59:29,148 - Temperature_GF_Living    : 23.0
+2013-09-13 07:00:34,595 - Temperature_GF_Kitchen   : 22.2
+2013-09-13 07:02:39,303 - Temperature_GF_Living    : 23.2
+2013-09-13 07:04:23,115 - Temperature_GF_Kitchen   : 22.5
+2013-09-13 09:48:45,664 - Temperature_GF_Living    : 23.7
+2013-09-13 09:49:23,644 - Temperature_GF_Living    : 24.0
+2013-09-13 09:49:47,460 - Temperature_GF_Living    : 23.7
+2013-09-13 09:50:11,369 - Temperature_GF_Living    : 24.0
+2013-09-13 09:50:35,035 - Temperature_GF_Living    : 24.2
+2013-09-13 09:51:07,976 - Temperature_GF_Kitchen   : 24.0
+2013-09-13 09:52:21,398 - Temperature_GF_Kitchen   : 24.5
+2013-09-13 09:53:33,708 - Temperature_GF_Living    : 24.5
+2013-09-13 09:53:37,392 - Temperature_GF_Kitchen   : 24.2
+2013-09-13 09:54:53,570 - Temperature_GF_Kitchen   : 23.7
+2013-09-13 09:55:08,901 - Temperature_GF_Living    : 24.2
+2013-09-13 09:56:08,738 - Temperature_GF_Living    : 24.5
+2013-09-13 09:56:09,867 - Temperature_GF_Kitchen   : 23.5
+2013-09-13 09:56:20,424 - Temperature_GF_Living    : 24.2
+2013-09-13 09:56:56,143 - Temperature_GF_Living    : 24.5
+2013-09-13 09:57:25,962 - Temperature_GF_Kitchen   : 23.0
+2013-09-13 09:58:42,142 - Temperature_GF_Kitchen   : 22.7
+2013-09-13 09:59:54,788 - Temperature_GF_Living    : 24.2
+2013-09-13 10:01:14,599 - Temperature_GF_Kitchen   : 22.5
+2013-09-13 10:03:41,166 - Temperature_GF_Living    : 24.0
+2013-09-13 10:03:46,741 - Temperature_GF_Kitchen   : 22.2
+2013-09-13 10:04:04,960 - Temperature_GF_Living    : 24.2
+2013-09-13 10:05:28,331 - Temperature_GF_Living    : 24.5
+2013-09-13 10:05:40,229 - Temperature_GF_Living    : 24.2
+2013-09-13 10:07:39,403 - Temperature_GF_Living    : 24.5
+2013-09-13 10:07:51,273 - Temperature_GF_Living    : 24.2
+2013-09-13 10:08:03,196 - Temperature_GF_Living    : 24.5
+2013-09-13 10:10:02,498 - Temperature_GF_Living    : 24.2
+2013-09-13 10:10:07,556 - Temperature_GF_Kitchen   : 22.0
+2013-09-13 10:15:12,022 - Temperature_GF_Kitchen   : 24.0
+2013-09-13 10:15:23,963 - Temperature_GF_Living    : 24.0
+2013-09-13 10:15:59,775 - Temperature_GF_Living    : 24.2
+2013-09-13 10:16:28,294 - Temperature_GF_Kitchen   : 22.0
+2013-09-13 10:19:10,325 - Temperature_GF_Living    : 24.5
+2013-09-13 10:20:33,765 - Temperature_GF_Living    : 24.2
+2013-09-13 10:25:21,563 - Temperature_GF_Kitchen   : 21.7
+2013-09-13 10:25:43,374 - Temperature_GF_Living    : 24.0
+2013-09-13 10:25:55,250 - Temperature_GF_Living    : 24.2
+2013-09-13 10:26:37,371 - Temperature_GF_Kitchen   : 22.0
+2013-09-13 10:28:42,099 - Temperature_GF_Living    : 24.0
+2013-09-13 10:29:09,647 - Temperature_GF_Kitchen   : 21.7
+2013-09-13 10:29:17,891 - Temperature_GF_Living    : 24.2
+2013-09-13 10:29:29,674 - Temperature_GF_Living    : 24.0
+2013-09-13 10:35:39,086 - Temperature_GF_Living    : 24.2
+2013-09-13 10:36:14,658 - Temperature_GF_Living    : 24.5
+2013-09-13 10:36:50,398 - Temperature_GF_Living    : 24.2
+2013-09-13 10:39:25,269 - Temperature_GF_Living    : 24.5
+2013-09-13 10:39:37,180 - Temperature_GF_Living    : 24.2
+2013-09-13 10:40:36,730 - Temperature_GF_Living    : 24.5
+2013-09-13 10:45:22,676 - Temperature_GF_Living    : 24.7
+2013-09-13 10:45:34,634 - Temperature_GF_Living    : 24.5
+2013-09-13 10:45:58,402 - Temperature_GF_Living    : 24.7
+2013-09-13 10:46:10,469 - Temperature_GF_Living    : 24.5
+2013-09-13 10:46:34,159 - Temperature_GF_Living    : 24.7
+2013-09-13 10:46:46,039 - Temperature_GF_Living    : 24.5
+2013-09-13 10:47:57,661 - Temperature_GF_Living    : 24.7
+2013-09-13 10:48:09,442 - Temperature_GF_Living    : 24.5
+2013-09-13 10:49:32,871 - Temperature_GF_Living    : 24.7
+2013-09-13 10:49:56,659 - Temperature_GF_Living    : 24.5
+2013-09-13 10:52:09,557 - Temperature_GF_Wohnzimmer: 24.5
+2013-09-13 10:52:20,447 - Temperature_GF_Wohnzimmer: 24.2
+2013-09-13 10:52:43,485 - Temperature_GF_Wohnzimmer: 24.5
+2013-09-13 11:07:40,323 - Temperature_FF_Bad       : 24.7
+2013-09-13 11:07:47,589 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:08:13,466 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:08:17,083 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:08:24,811 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:08:30,141 - Temperature_FF_Bad       : 21.7
+2013-09-13 11:15:10,833 - Temperature_FF_Bad       : 24.5
+2013-09-13 11:16:18,947 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:16:33,413 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:17:23,623 - Temperature_FF_Bad       : 21.7
+2013-09-13 11:18:56,183 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:21:12,336 - Temperature_FF_Bad       : 21.7
+2013-09-13 11:22:27,654 - Temperature_FF_Bad       : 21.7
+2013-09-13 11:22:30,570 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:24:41,623 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:25:05,440 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:25:17,330 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:25:53,119 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:26:16,927 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:27:16,504 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:30:39,246 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:32:14,330 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:32:50,041 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:41:29,720 - Temperature_FF_Bad       : 21.7
+2013-09-13 11:42:46,311 - Temperature_FF_Bad       : 24.5
+2013-09-13 11:44:02,009 - Temperature_FF_Bad       : 21.7
+2013-09-13 11:45:56,365 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:46:20,213 - Temperature_FF_Wohnzimmer: 25.0
+2013-09-13 11:47:07,857 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:47:31,623 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:48:07,450 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:49:18,876 - Temperature_FF_Wohnzimmer: 25.0
+2013-09-13 11:49:30,841 - Temperature_FF_Wohnzimmer: 24.7
+2013-09-13 11:50:06,506 - Temperature_FF_Wohnzimmer: 24.5
+2013-09-13 11:50:22,736 - Temperature_FF_Bad       : 22.0
+2013-09-13 12:03:06,182 - Temperature_FF_Bad       : 24.2
+2013-09-13 12:04:03,284 - Temperature_FF_Wohnzimmer: 24.2
+2013-09-13 12:04:20,518 - Temperature_FF_Bad       : 21.7
+2013-09-13 13:45:59,464 - Temperature_GF_Flur      : 21.10000000
+2013-09-13 13:46:00,331 - Temperature_GF_Toilette  : 21.00000000
+2013-09-13 13:46:00,852 - Temperature_GF_Wohnzimmer: 19.40000000
+2013-09-13 13:46:02,225 - Temperature_GF_Kueche    : 21.70000000
+2013-09-13 13:46:02,977 - Temperature_FF_Bad       : 19.90000000
+2013-09-13 13:46:03,433 - Temperature_FF_Buero     : 21.90000000
+2013-09-13 13:46:03,832 - Temperature_FF_Wohnzimmer: 19.00000000
+2013-09-13 13:46:04,124 - Temperature_FF_Schlafzimmer: 21.90000000
+2013-09-13 13:46:04,648 - Temperature_FF_Wohnzimmer: 21.5
+2013-09-13 13:46:40,804 - Temperature_FF_Wohnzimmer: 21.7
+2013-09-13 13:46:49,149 - Temperature_FF_Wohnzimmer: 21.5
+2013-09-13 13:46:52,075 - Temperature_FF_Wohnzimmer: 21.7
+2013-09-13 13:47:15,977 - Temperature_FF_Wohnzimmer: 22.0
+2013-09-13 13:48:03,521 - Temperature_FF_Wohnzimmer: 22.2
+2013-09-13 14:18:09,583 - Temperature_FF_Wohnzimmer: 22.2
