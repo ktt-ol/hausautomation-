@@ -1,3 +1,3 @@
 Im Ordner openhab sind ist eine Version von "openhab" (siehe openhab.org) enthalten, zur Abfrage vom OLNode und zum senden von FS20 Komponenten
 
-Im Ordner OLNode sind Entwicklungen der OLNode Platine (Kicad) abgelegt und Beispielcode für die Abfrage eines 18B20 Temperatursensor und gleichzeitiger Übertragung über eine RFM12 Funkmodul. Sowie der dazu passende Code zum Empfangen des Funkprotokolls. Es handelt sich dabei um eine Abwandlung des Jeenode. 
+Im Ordner OLNode sind Entwicklungen der OLNode Platine (Kicad) abgelegt und Beispielcode für die Abfrage eines 18B20 Temperatursensor und gleichzeitiger Übertragung über eine RFM12 Funkmodul. Sowie der dazu passende Code zum Empfangen des Funkprotokolls. Es handelt sich dabei um eine Abwandlung des Jeenode.. 
