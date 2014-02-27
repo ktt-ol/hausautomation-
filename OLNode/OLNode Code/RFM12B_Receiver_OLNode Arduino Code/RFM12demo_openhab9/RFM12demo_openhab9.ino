@@ -8,6 +8,7 @@
 #include <util/parity.h>
 #include <avr/eeprom.h>
 #include <avr/pgmspace.h>
+#include <avr/sleep.h>
 
 // ATtiny's only support outbound serial @ 38400 baud, and no DataFlash logging
 
@@ -20,6 +21,10 @@
 #define FLASH_MBIT  16  // support for various dataflash sizes: 4/8/16 Mbit
 
 #define LED_PIN     9   // activity LED, comment out to disable
+
+#define RETRY_PERIOD    10  // how soon to retry if ACK didn't come in
+#define ACK_TIME        10  // number of milliseconds to wait for an ack
+#define RETRY_LIMIT     5   // maximum number of times to retry
 
 #endif
 
@@ -676,6 +681,20 @@ static void handleInput (char c) {
         showHelp();
 }
 
+// wait a few milliseconds for proper ACK to me, return true if indeed received
+static byte waitForAck() {
+    MilliTimer ackTimer;
+    while (!ackTimer.poll(ACK_TIME)) {
+        if (rf12_recvDone() && rf12_crc == 0 &&
+                // see http://talk.jeelabs.net/topic/811#post-4712
+                rf12_hdr == (RF12_HDR_DST | RF12_HDR_CTL | config.nodeId))
+            return 1;
+        set_sleep_mode(SLEEP_MODE_IDLE);
+        sleep_mode();
+    }
+    return 0;
+}
+
 void setup() {
     Serial.begin(SERIAL_BAUD);
     Serial.print("\n[RF12demo.8]");
@@ -689,6 +708,8 @@ void setup() {
         saveConfig();
     }
 
+    rf12_encrypt(RF12_EEPROM_EKEY);
+    
     df_initialize();
     
     showHelp();
@@ -702,33 +723,108 @@ void loop() {
         byte n = rf12_len;
         if (rf12_crc == 0) {
             Serial.print("id=");
-            Serial.print((int) rf12_hdr);      //Vermutlich die Adresse des Node
+            Serial.print((int) rf12_hdr);      //Headeraddess Teil ist Node ID
             Serial.print(";");
-            for (byte i = 0; i < n; ++i) {
-            //Serial.print('');              //Es folgen die Ausgaben des RFM12 Data. Weitere Daten müssen ergänzt werden, falls erforderlich
-            if (i == 1){
-                //Serial.print("item=Batteriedata,");
-                //Serial.print("value=");
-                //Serial.print((int) rf12_data[i]);
-                //Serial.println(";");  
-            }    
-            if (i == 2){
-                //Serial.print("item=Batterietype,");
-                //Serial.print("value=");
-                //Serial.print((int) rf12_data[i]);
-                //Serial.print(";"); 
+            //for (byte i = 0; i < n; ++i) {   //Test Darstellung von Data
+            //Serial.print((int) rf12_data[i]);
+            //Serial.print(",");
+            //}
+            for (byte i = 0; i < n; i = i+2) {
+            if (rf12_data[i] == 10){                    //Batterielow
+                Serial.print("type=v;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");  
+            }   
+            if (rf12_data[i] == 253){                    //Batterielow
+                Serial.print("type=v;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");  
             }
-            if (i == 3){
+            if (rf12_data[i] == 20){                    //Temperatur
                 Serial.print("type=t;");
                 Serial.print("value=");
-                Serial.print((int) rf12_data[i]);
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";"); 
+            }
+            if (rf12_data[i] == 11){                    //Temperatur
+                Serial.print("type=t;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";"); 
+            }
+            if (rf12_data[i] == 30){                    //Licht
+                Serial.print("type=l;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
                 Serial.print(";");       
             }
-            if (i == 4){
-                //Serial.print("item=temperature,");
-                //Serial.print("value=");
-                //Serial.print((int) rf12_data[i]);
-                //Serial.println(";");     
+            if (rf12_data[i] == 40){                    //Bewegung
+                Serial.print("type=b;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 50){                    //Feuchtigkeit
+                Serial.print("type=f;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 60){                    //Zyklus (Strom, etc)
+                Serial.print("type=z;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 70){                    //Measure
+                Serial.print("type=m;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 80){                    //Entrance
+                Serial.print("type=e;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 90){                    //Wind
+                Serial.print("type=w;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 100){                    //Luftdruck
+                Serial.print("type=d;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 110){                    //Regen
+                Serial.print("type=r;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 120){                    //Switch
+                Serial.print("type=s;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 130){                    //Ampere
+                Serial.print("type=a;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
+            }
+            if (rf12_data[i] == 140){                    //PWM
+                Serial.print("type=p;");
+                Serial.print("value=");
+                Serial.print((int) rf12_data[i+1]);
+                Serial.print(";");     
             }
         }
             
@@ -763,14 +859,27 @@ void loop() {
 
     if (cmd && rf12_canSend()) {
         activityLed(1);
-
-        Serial.print(" -> ");
-        Serial.print((int) sendLen);
-        Serial.println(" b");
-        byte header = cmd == 'a' ? RF12_HDR_ACK : 0;
-        if (dest)
-            header |= RF12_HDR_DST | dest;
-        rf12_sendStart(header, testbuf, sendLen);
+        for (byte i = 0; i < RETRY_LIMIT; ++i) {
+            while (!rf12_canSend())
+            rf12_recvDone();
+            Serial.print(" -> ");
+            Serial.print((int) sendLen);
+            Serial.println(" b");
+            byte header = cmd == 'a' ? RF12_HDR_ACK : 0;
+            if (dest)
+                header |= RF12_HDR_DST | dest;
+                rf12_sendStart(header, testbuf, sendLen);
+                
+            byte acked = waitForAck();
+            
+            if (acked) {    
+                Serial.print(" ack ");
+                Serial.println((int) i);
+            return;
+        }
+        
+        delay(RETRY_PERIOD * 100);
+        }
         cmd = 0;
 
         activityLed(0);
